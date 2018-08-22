@@ -1,0 +1,47 @@
+/* Proyecto Fusion CSS */
+
+a:active  { color: #FF0000 }
+a:hover   { color: #FF0000; text-decoration: underline }
+a:link    { color: #FFFFFF }
+a         { color: #FFFFFF; text-decoration: none }
+
+.linkazul:active  { color: #FF0000 }
+.linkazul:hover   { color: #FF0000; text-decoration: underline }
+.linkazul:link    { color: #336699 }
+.linkazul         { color: #336699; text-decoration: none }
+
+.linkrojo:active  { color: #FF0000 }
+.linkrojo:hover   { color: #FF0000; text-decoration: underline }
+.linkrojo:link    { color: #FF3300 }
+.linkrojo         { color: #FF3300; text-decoration: none }
+
+.contenido { font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		text-decoration: none; }
+
+.contenido2 { font-family: Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		text-decoration: none; }
+
+.contenido3 { font-family: Tahoma, Verdana, Arial, Helvetica;
+		font-size: 10pt;
+		text-decoration: none; }
+
+.contbold { font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		font-weight: bold;
+		text-decoration: none; }
+
+.justificado {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	text-align: justify;
+}
+
+.justificado2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	text-align: justify;
+}

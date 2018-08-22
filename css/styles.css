@@ -1,0 +1,144 @@
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+body {
+	background-color: #fff;
+    background-image: -webkit-linear-gradient(#fff, #E5E9ED);
+    background-image: linear-gradient(#fff, #E5E9ED);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body * {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: 300;
+}
+
+
+.address-container {
+	position: relative;
+	top: 200px;
+	left: 150px;
+	padding: 20px;
+	border: 1px solid #333;
+	background: #ebebeb;
+	width: 250px;
+	z-index: 10;
+}
+#map {
+	position: relative;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 300px;
+	overflow: hidden;
+	display: block;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+
+/* entire container, keeps perspective */
+.card-container {
+	  -webkit-perspective: 800px;
+   -moz-perspective: 800px;
+	 -o-perspective: 800px;
+		perspective: 800px;
+		margin-bottom: 30px;
+}
+
+/*		Style	   */
+.card {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 4px;
+	color: #444444;
+}
+.card-container {
+	width: 100%;
+	height: 420px;
+	border-radius: 4px;
+}
+.card .cover{
+	height: 105px;
+	overflow: hidden;
+	border-radius: 4px 4px 0 0;
+}
+.card .cover img{
+	width: 100%;
+}
+.card .user{
+	border-radius: 50%;
+	display: block;
+	height: 120px;
+	margin: -55px auto 0;
+	overflow: hidden;
+	width: 120px;
+}
+.card .user img{
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 4px solid #FFFFFF;
+	width: 100%;
+}
+
+.card .content{
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: none;
+	padding: 10px 20px 20px;
+}
+.card .content .main {
+	min-height: 160px;
+}
+.card .back .content .main {
+	height: 215px;
+}
+.card .name {
+	font-size: 22px;
+	line-height: 28px;
+	margin: 10px 0 0;
+	text-align: center;
+	text-transform: capitalize;
+}
+.card h5{
+	margin: 5px 0;
+	font-weight: 400;
+	line-height: 20px;
+}
+.card .profession{
+	color: #999999;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.card .footer {
+	border-top: 1px solid #EEEEEE;
+	color: #999999;
+	margin: 0;
+	padding: 15px 0 0;
+	text-align: center;
+}
+.card .footer .social-links{
+	font-size: 18px;
+}
+.card .footer .social-links a{
+	margin: 0 7px;
+}
+.card .header {
+	padding: 15px 20px;
+	height: 90px;
+}
+
+/*	   Fix bug for IE	  */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.front {
+		-ms-backface-visibility: visible;
+		backface-visibility: visible;
+		z-index: 4;
+	}
+}

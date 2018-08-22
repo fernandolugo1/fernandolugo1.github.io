@@ -1,0 +1,1 @@
+<div align="center"><a href="../main/index.php"><img src="../images/banner_01.gif" alt="Pproyecto Fusion" width="468" height="60" border="0"></a></div>

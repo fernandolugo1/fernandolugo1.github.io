@@ -1,0 +1,4 @@
+Antigua|4
+Republica|6
+Frugs|5
+Space|0
